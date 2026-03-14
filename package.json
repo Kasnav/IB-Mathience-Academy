@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "private": true,
-  "homepage": "https://kasnav.github.io/IB-Mathience-Academy/",
+  "homepage": "https://ibmathience.in",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
