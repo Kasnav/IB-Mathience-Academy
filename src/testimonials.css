@@ -1,0 +1,85 @@
+.subjects {
+    padding: 60px 0px;
+}
+
+.testimonialsHeading {
+    font-family: "Space Grotesk";
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.subHeading {
+    font-family: "DM Sans";
+    font-size: 13px;
+    color: #383838;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-top: 10px;
+    max-width: 402px;
+}
+
+.testimonialsDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.testimonialCards {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.testimonialCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #FAF8F5;
+    border-radius: 18px;
+    border: 1px solid #ECECEC;
+    max-width: 273px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.testimonialCard:hover {
+    border: 1px solid #C9C9C9;
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials {
+    padding: 60px 0px;
+}
+
+.review {
+    font-family: "DM Sans";
+    font-size: 13px;
+    margin: 0;
+}
+
+.reviewerName {
+    font-family: "DM Sans";
+    font-size: 13px;
+    font-weight: bold;
+    color: navy;
+    margin: 0;
+    margin-bottom: -10px;
+}
+
+.grade {
+    font-family: "DM Sans";
+    font-size: 13px;
+    color: #848484;
+    margin: 0;
+}

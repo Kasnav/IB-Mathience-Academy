@@ -1,0 +1,82 @@
+.callToAction {
+    background-color: #f5f5f5;
+    padding: 60px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    row-gap: 50px;
+    flex-wrap: wrap;
+}
+
+.callToActionCard {
+    box-sizing: border-box;
+    background-color: navy;
+    max-width: 483px;
+    min-height: 255px;
+    width: 80vw;
+    padding: 30px;
+    border-radius: 33px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.callToActionTitle {
+    font-family: "Space Grotesk";
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    margin-bottom: -10px;
+}
+
+.callToActionText {
+    font-family: "DM Sans";
+    font-size: 13px;
+    color: white;
+    max-width: 383px;
+}
+
+.callToActionButtons {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    max-width: 383px;
+    justify-content: center;
+}
+
+.callToActionButton {
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 700;
+    background-color: white;
+    border-radius: 999px;
+    text-decoration: none;
+    border: 0;
+    height: 38px;
+    width: 141px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.callToActionButton > a{
+    color: navy;
+}
+
+.callToActionButton:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.25);
+}
+
+.maps {
+    border-radius: 33px;
+    border: 0;
+    height: 255px;
+    max-width: 483px;
+    width: 80vw;
+}

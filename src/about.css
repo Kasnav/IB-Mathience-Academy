@@ -1,0 +1,97 @@
+.subjects{
+    padding: 60px 0px;
+}
+
+.aboutHeading {
+    font-family: "Space Grotesk";
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.subHeading {
+    font-family: "DM Sans";
+    font-size: 13px;
+    color: #383838;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-top: 10px;
+    max-width: 402px;
+}
+
+.aboutDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.aboutSection{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAF8F5;
+}
+
+.iconHolder{
+    min-width: 46px;
+    width: 46px;
+    height: 46px;
+    background-color: hsla(155, 27%, 30%, 0.25);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.aboutCardTextSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.aboutCardHeading {
+    font-family: "Space Grotesk";
+    font-size: 18px;
+    color: navy;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.aboutCardText {
+    font-family: "DM Sans";
+    font-size: 14px;
+    color: #646F87;
+    text-align: left;
+    margin: 0;
+    margin-top: 5px;
+    max-width: 402px;
+}
+
+.row {
+    display: flex;
+    gap: 60px;
+}
+
+.aboutCards{
+    margin-top: 45px;
+    display: grid;
+    width: 90vw;
+    max-width: 1090px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+    justify-content: center;
+    gap: 50px;
+}

@@ -1,0 +1,114 @@
+.subjects{
+    padding: 60px 0px;
+    width: 100vw;
+}
+
+.sectionHeading {
+    font-family: "Space Grotesk";
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.subHeading {
+    font-family: "DM Sans";
+    font-size: 13px;
+    color: #383838;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    margin-top: 10px;
+    max-width: 402px;
+    width: 70vw;
+}
+
+.subjectsDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.subject{
+    display: flex;
+    align-items: center;
+}
+
+.subjectIcon {
+    width: 50px;
+    height: 50px;
+    background-color: hsla(155, 27%, 30%, 0.25);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mathIcon {
+    background-color: hsla(0, 55%, 50%, 0.25);
+}
+
+#mathGradeBracket {
+    color: hsla(0, 55%, 50%);
+}
+
+.subjectHeading {
+    font-family: "Space Grotesk";
+    font-size: 22px;
+    font-weight: bold;
+    color: navy;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.subjectCards {
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.subjectCard {
+    transition: all 0.3s ease;
+    border: 1px solid #ECECEC;
+    background-color: #FAF8F5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 233px;
+    height: 184px;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.subjectCard:hover {
+    border: 1px solid #C9C9C9;
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.gradeBracket {
+    font-family: "DM Sans";
+    font-size: 14px;
+    color: #386150;
+    margin: 0;
+}
+
+.description {
+    font-family: "DM Sans";
+    font-size: 13px;
+    color: #383838;
+    width: 178px;
+    margin: 0;
+}
+
+.icon {
+    border-radius: 0;
+    width: 24px;
+    height: 24px;
+}
