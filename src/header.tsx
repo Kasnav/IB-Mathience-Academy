@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <header>
             <div className="headerDiv">
-                <h1 className="logo"> <img src={Frame} alt="" /> Mathience</h1>
+                <h1 className="logo"> <img src={Frame} alt="" /> IB Mathience</h1>
                 <ul className="navigationLinks">
                     <li><a href="#subjects">Subjects</a></li>
                     <li><a href="#about">About</a></li>
